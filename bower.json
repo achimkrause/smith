@@ -1,0 +1,20 @@
+{
+  "name": "smith",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.0.0",
+    "purescript-arrays": "^4.0.0",
+    "purescript-lists": "^4.0.0",
+    "purescript-eff": "^3.0.0",
+    "purescript-partial": "^1.2.0",
+    "purescript-stringutils": "^0.0.7"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}
