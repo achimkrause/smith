@@ -1,14 +1,7 @@
 var S = require('../output/Smith')
 
-var button = document.getElementById("button");
 
-button.addEventListener('click', main);
-
-
-function displayMatrix(mat){
-    var smith = S.smith(mat);
-}
-
+module.exports = {main : main}
 
 function main(){
     var str = document.getElementById("area").value;

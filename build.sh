@@ -1,2 +1,2 @@
 pulp build
-browserify jssrc/script.js > jsoutput/script.js
+browserify jssrc/script.js --standalone script > jsoutput/script.js
